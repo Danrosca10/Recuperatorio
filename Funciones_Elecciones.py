@@ -127,7 +127,7 @@ def definir_ganador(matriz):
     # Buscar los participantes con ese promedio máximo
     for fila in matriz:
         if calcular_promedio(fila) == max_promedio:
-            ganadores += [fila]  # Evita usar append
+            ganadores += [fila]  
 
     if len(ganadores) == 1:
         print(f"El ganador es el participante {ganadores[0][0]} con promedio {max_promedio:.2f}")
